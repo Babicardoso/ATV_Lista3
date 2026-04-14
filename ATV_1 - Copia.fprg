@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 01:41:57 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTM7IjAxOjI2OjE4ICI7Mjg1OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTM7IjAxOjQxOjU3ICI7MTsyOTY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorUm, valorDois, valorTres, soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro valor&quot;" newline="True"/>
+            <input variable="valorUm"/>
+            <output expression="&quot;Digite o segundo valor&quot;" newline="True"/>
+            <input variable="valorDois"/>
+            <output expression="&quot;Digite o terceiro valor&quot;" newline="True"/>
+            <input variable="valorTres"/>
+            <assign variable="soma" expression="valorUm + valorDois + valorTres"/>
+            <output expression="(&quot; O resultado foi &quot; &amp; soma)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

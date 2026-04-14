@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 04:18:37 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTM7IjAzOjQwOjM5ICI7Mjg1OQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTM7IjA0OjE4OjM3ICI7MTsyOTcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="notaUm, notaDois, notaTres, media" type="Real" array="False" size=""/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <declare name="m&#233;dia" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Digitar as notas dos alunos&quot;" newline="True"/>
+            <output expression="&quot;Digite a primeira nota do aluno&quot;" newline="True"/>
+            <input variable="notaUm"/>
+            <output expression="&quot;Digite a Segunda nota do aluno&quot;" newline="True"/>
+            <input variable="notaDois"/>
+            <output expression="&quot;Digite a terceira nota do aluno&quot;" newline="True"/>
+            <input variable="notaTres"/>
+            <assign variable="soma" expression="notaUm + notaDois + notaTres"/>
+            <assign variable="media" expression="soma /3"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="(&quot;O aluno foi a aprovado com a m&#233;dia de &quot; &amp; media)" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media &gt;4">
+                        <then>
+                            <output expression="(&quot;O aluno ficou de reculpera&#231;&#227;o referente a m&#233;dia de &quot; &amp; media)" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="(&quot;O aluno est&#225; retido com a m&#233;dia de &quot; &amp; media)" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

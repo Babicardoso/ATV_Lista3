@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:34:31 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTM7IjAyOjEwOjA0ICI7Mjg0Nw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTM7IjAyOjM0OjMxICI7MTsyOTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorProduto, valorComissao, multiplica&#231;&#227;o" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor do produto&quot;" newline="True"/>
+            <input variable="valorProduto"/>
+            <output expression="&quot;Informe valor da comiss&#227;o&quot;" newline="True"/>
+            <input variable="valorComissao"/>
+            <assign variable="Multiplica&#231;&#227;o" expression="valorProduto * valorComissao"/>
+            <output expression="(&quot;A sua comiss&#227;o &#233; &quot;) &amp;  multiplica&#231;&#227;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
